@@ -1,0 +1,27 @@
+git:
+  depth: 1
+sudo: false
+language: node_js
+node_js:
+ - '10'
+ - '8'
+ - '6'
+
+matrix:
+  fast_finish: true
+
+cache:
+  directories:
+  - $HOME/.npm
+
+before_install:
+  - npm config set loglevel warn
+  - npm install --global npm@latest
+
+install: npm install
+
+before_script:
+  - git config --global user.email sigoden@gmail.com
+  - git config --global user.name "Sigoden Huang"
+
+script: npm run test
