@@ -5,7 +5,7 @@ A utility class to convert a string into CamelCase/dash-case/snake_case, capital
 ## install
 
 ```sh
-npm i @sigodenh/name-util -s
+npm i @sigodenh/name -s
 ```
 
 ## Usage
