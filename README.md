@@ -5,13 +5,13 @@ A utility class to convert a string into CamelCase/dash-case/snake_case, capital
 ## install
 
 ```sh
-npm i @sigodenh/name -s
+npm i @sigodenjs/name -s
 ```
 
 ## Usage
 
 ```js
-var Name = require('@sigodenh/name');
+var Name = require('@sigodenjs/name');
 var name = new Name('helloWorld');
 
 name.toDashCase().toValue(); // returns hello-world

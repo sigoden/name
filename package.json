@@ -1,5 +1,5 @@
 {
-  "name": "@sigodenh/name",
+  "name": "@sigodenjs/name",
   "version": "1.0.2",
   "description": "A utility class to convert a string into CamelCase/dash-case/snake_case, capitalized/uncapitalized, plural/singular name.",
   "main": "index.js",
